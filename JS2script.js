@@ -18,7 +18,7 @@ function forward() {
         id = 1;
     } 
 
-    console.log(document.getElementsByTagName("img").length);
+   // console.log(document.getElementsByTagName("img").length);
 
     document.getElementById("picture" + id).style.display = "block";
 }
